@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    
+</head>
+<body>
+    <div class="all">
+    <h1>welcome</h1>
+    <h2>Input things you want to do</h2>
+    <form id="to">
+        <input type="text" id="mess" />
+        <br/>
+        <button class="add" type="submit">Add me</button>
+    </form>
+    <div class="work">
+    <h1>Your work to do</h1>
+    <div id="out"></div>
+    <div id="edit"></div>
+    </div>
+    </div>
+    <script>
+        var mess = [];
+
+        document.getElementById('to').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const temp = document.getElementById('mess').value;
+            mess.push(temp);
+            console.log(mess); 
+            tem=document.getElementById('mess')
+            tem.value='';
+
+            show();
+        });
+          function remove(i){
+            mess.splice(i,1);
+            show();
+        }
+        function f(i){
+            const got=document.getElementById(`mess${i}`).value;
+            mess[i]=got
+            show()
+            document.getElementById('edit').innerHTML=''
+        }
+        function edit(i){
+            document.getElementById('edit').innerHTML=`
+            <input id="mess${i}" type='text'/>
+            <br/>
+            <button onclick="f(${i})">change</button>
+            `
+        }
+        
+       function show(){
+        document.getElementById("out").innerHTML='';
+            for (let i=0;i<mess.length;i++){
+            document.getElementById('out').innerHTML+=`<div>
+                <ul>
+                  ${mess[i]}    <button class="done" onclick="remove(${i})">done</button>   <button class="edit" onclick="edit(${i})">edit</button></ul></div>
+                  <button class="delete" onclick=remove(${i})>delete</button>
+                  `
+        }
+      
+       }
+    </script>
+</body>
+</html>
