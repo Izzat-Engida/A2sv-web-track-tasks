@@ -1,0 +1,11 @@
+# My Next.js Project ignores
+/my-nextjs-task/node_modules
+/my-nextjs-task/.next
+/my-nextjs-task/.env.local
+/my-nextjs-task/.env.development.local
+/my-nextjs-task/.env.test.local
+/my-nextjs-task/.env.production.local
+/my-nextjs-task/npm-debug.log*
+/my-nextjs-task/yarn-debug.log*
+/my-nextjs-task/yarn-error.log*
+/my-nextjs-task/.vercel # If you use Vercel
