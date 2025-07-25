@@ -1,4 +1,4 @@
-<img width="860" height="656" alt="Screenshot 2025-07-25 090245" src="https://github.com/user-attachments/assets/6e6406b7-f8c7-47d9-966c-725a974962d4" />To-Do List React Component
+To-Do List React Component
 
 A simple, clean, and interactive To-Do List application built with React and TypeScript. It allows users to add, edit, delete, and reorder tasks easily.
 Features
@@ -94,6 +94,7 @@ Inline styles are used for quick styling, including:
 <img width="594" height="777" alt="Screenshot 2025-07-25 085637" src="https://github.com/user-attachments/assets/8c223c4a-8ba5-49fa-88a9-a53da86d62af" />
 <img width="836" height="619" alt="Screenshot 2025-07-25 090212" src="https://github.com/user-attachments/assets/e414c579-7c32-4247-97cd-9a5e0f313108" />
 <img width="1081" height="736" alt="Screenshot 2025-07-25 090227" src="https://github.com/user-attachments/assets/4f2d3327-486f-41a7-ad64-368729e4837b" />
+<img width="860" height="656" alt="Screenshot 2025-07-25 090245" src="https://github.com/user-attachments/assets/6e6406b7-f8c7-47d9-966c-725a974962d4" />
 
 <img width="1038" height="811" alt="Screenshot 2025-07-25 090238" src="https://github.com/user-attachments/assets/7a6248da-1106-482a-bc6b-16bf6df797fa" />
 <img width="860" height="656" alt="Screenshot 2025-07-25 090245" src="https://github.com/user-attachments/assets/ddbed370-b560-4d0a-bcb1-a6a88402cb76" />
